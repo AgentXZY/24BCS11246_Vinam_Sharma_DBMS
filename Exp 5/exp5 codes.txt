@@ -1,0 +1,9 @@
+5.1:-
+/* Solution as follows */
+
+SELECT ROUND((100*(SUM(CASE WHEN cuisine= 'American' THEN price ELSE 0 END))/SUM(price)),2) AS American_Revenue
+FROM Orders;
+
+5.2:-
+# Write your MySQL query statement below
+select tweet_id from Tweets where length(content)>15;
