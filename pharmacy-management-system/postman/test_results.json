@@ -1,0 +1,147 @@
+{
+  "total": 28,
+  "passed": 28,
+  "failed": 0,
+  "details": [
+    {
+      "name": "Get All Categories",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Get Category by ID",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Add Category (Positive)",
+      "status": "PASSED",
+      "code": 201
+    },
+    {
+      "name": "Add Duplicate Category (Negative)",
+      "status": "PASSED",
+      "code": 400
+    },
+    {
+      "name": "Get All Medicines",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Search Medicines",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Get Low Stock Medicines View",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Get Expired Medicines View",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Add Medicine (Positive)",
+      "status": "PASSED",
+      "code": 201
+    },
+    {
+      "name": "Add Medicine - Negative Price (Negative)",
+      "status": "PASSED",
+      "code": 400
+    },
+    {
+      "name": "Add Medicine - Selling < Purchase (Negative)",
+      "status": "PASSED",
+      "code": 400
+    },
+    {
+      "name": "Get Medicine by Invalid ID (Negative)",
+      "status": "PASSED",
+      "code": 404
+    },
+    {
+      "name": "Get All Suppliers",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Add Supplier (Positive)",
+      "status": "PASSED",
+      "code": 201
+    },
+    {
+      "name": "Get All Customers",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Add Customer (Positive)",
+      "status": "PASSED",
+      "code": 201
+    },
+    {
+      "name": "Get All Purchases",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Create Purchase (Increases Stock via Trigger)",
+      "status": "PASSED",
+      "code": 201
+    },
+    {
+      "name": "Get All Sales",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Create Sale (Positive - Decreases Stock via Trigger)",
+      "status": "PASSED",
+      "code": 201
+    },
+    {
+      "name": "Create Sale - Selling Expired Medicine (Negative - Rejected by Trigger)",
+      "status": "PASSED",
+      "code": 400
+    },
+    {
+      "name": "Create Sale - Selling Exceeding Stock (Negative - Rejected by Trigger)",
+      "status": "PASSED",
+      "code": 400
+    },
+    {
+      "name": "Get Dashboard Metrics",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Get Monthly Report (Function)",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Get Best Sellers (Function)",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Get Daily Sales Summary (View)",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Get Category Inventory Summary (View)",
+      "status": "PASSED",
+      "code": 200
+    },
+    {
+      "name": "Get Stock Audit Transactions (Trigger Log)",
+      "status": "PASSED",
+      "code": 200
+    }
+  ]
+}
